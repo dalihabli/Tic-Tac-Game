@@ -65,3 +65,10 @@ else if ( (sp3 == sp5) && (sp5 == sp7)){
 
 return -1;
 }
+
+function changeColor(){
+    var color = $('#colorInputColor').val()
+    $('table').css('background-color',color)
+    $('#colorInput').val(color)
+   
+   }
