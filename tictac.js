@@ -27,6 +27,7 @@ $(document).ready(function(){
     
                 }
                 play = false;
+                
             }
     
         }
@@ -53,7 +54,7 @@ $(document).ready(function(){
     }  else if ((sp2 == sp5) && (sp5 == sp8)){
         return sp8;
     } else if ((sp3 == sp6) && (sp6 == sp9)){
-        return sp9;
+        return sp9;   
     
     } 
     else if ((sp1 == sp5) && (sp5 == sp9)){
